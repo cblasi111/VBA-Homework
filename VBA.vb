@@ -56,7 +56,7 @@ For i = 2 To LastRow
                     
                 Else
                     
-                    Cells(x, 11).Value = (DateMaxClose / DateMinOpen) - 1
+                    Cells(x, 11).Value = (DateMaxClose / (DateMinOpen + 1E-28)) - 1
                         
                     
 
